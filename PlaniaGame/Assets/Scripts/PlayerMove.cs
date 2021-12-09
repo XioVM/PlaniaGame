@@ -29,9 +29,9 @@ public class PlayerMove : MonoBehaviour
        
 
         if (horizontalInput > 0.01f)
-            transform.localScale = new Vector3(3, 3, 3);
+            transform.localScale = new Vector3(4, 4, 4);
         else if (horizontalInput < -0.01f)
-            transform.localScale = new Vector3(-3, 3, 3);
+            transform.localScale = new Vector3(-4, 4, 4);
 
         //set animator parametros
         //el horizontal input significa que no estas necesitandola ahorita
