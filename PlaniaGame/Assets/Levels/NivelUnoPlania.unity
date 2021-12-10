@@ -611,6 +611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthCollectible (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046865032239954939, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
+      propertyPath: healthValue
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5046865032239954941, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2518,6 +2522,10 @@ PrefabInstance:
     - target: {fileID: 5046865032239954937, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
       propertyPath: m_Name
       value: HealthCollectible (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046865032239954939, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
+      propertyPath: healthValue
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5046865032239954941, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
       propertyPath: m_RootOrder
@@ -6932,6 +6940,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthCollectible (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046865032239954939, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
+      propertyPath: healthValue
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5046865032239954941, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -7570,6 +7582,10 @@ PrefabInstance:
     - target: {fileID: 5046865032239954937, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
       propertyPath: m_Name
       value: HealthCollectible (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046865032239954939, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
+      propertyPath: healthValue
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5046865032239954941, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
       propertyPath: m_RootOrder
@@ -9228,6 +9244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthCollectible (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046865032239954939, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
+      propertyPath: healthValue
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5046865032239954941, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -9848,6 +9868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthCollectible (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046865032239954939, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
+      propertyPath: healthValue
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5046865032239954941, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -10311,7 +10335,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0a77954bf3ba51e45a5c4d2481e64ee4, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.26
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -11599,6 +11623,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthCollectible (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046865032239954939, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
+      propertyPath: healthValue
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5046865032239954941, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -12325,6 +12353,10 @@ PrefabInstance:
     - target: {fileID: 5046865032239954937, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
       propertyPath: m_Name
       value: HealthCollectible (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046865032239954939, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
+      propertyPath: healthValue
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5046865032239954941, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
       propertyPath: m_RootOrder
@@ -14085,6 +14117,10 @@ PrefabInstance:
     - target: {fileID: 5046865032239954937, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
       propertyPath: m_Name
       value: HealthCollectible
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046865032239954939, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
+      propertyPath: healthValue
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5046865032239954941, guid: 4b430e493f205584f9907efbd8b2d8eb, type: 3}
       propertyPath: m_RootOrder
