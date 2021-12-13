@@ -11,7 +11,20 @@ public class Writingsound : MonoBehaviour
     void Start()
     {
         SFXWriting.Play();
-        StartCoroutine(Reloj());
+        TextReport();
+    }
+
+    private void Update()
+    {
+        
+        if (Input.GetKey(KeyCode.Space))
+        {
+            StopAllCoroutines();
+            texto.text = frase;
+            SFXWriting.Stop();
+            Button_Next.SetActive(true);
+
+        }
     }
 
     string frase = "Hola Katia, soy el comandante PepeGrillo, acaba de surgir una misión de extrema importancia en las Amazonas. Te asigné a ti ya que eres una agente bastante aventurera y valiente, sé que te irá bien. " +
@@ -19,6 +32,22 @@ public class Writingsound : MonoBehaviour
         "Al final de tu recorrido, debes buscar a tu equipo para poder volver a casa. " +
         "Para poder desplazarte, debes hacerlo con la flecha izquierda y derecha de tu teclado, con la barra espaciadora tendrás un planeador, que te ayudará a desplazarte rápidamente y esquivar obstáculos.";
     public Text texto;
+
+    private void TextReport()
+    {
+        
+        if (Input.GetKey(KeyCode.Space))
+        {
+            print("space key was pressed");
+            StopAllCoroutines();
+            texto.text = frase;
+
+        }
+        else
+        {
+            StartCoroutine(Reloj());
+        }
+    }
 
     IEnumerator Reloj()
     {

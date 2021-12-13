@@ -10,6 +10,7 @@ public class GameIntroEvent : MonoBehaviour
     private void ChangeScenePlaniaGame()
     {
         SceneManager.LoadScene("NivelUnoPlania");
+
     }
 
     // Start is called before the first frame update
@@ -23,5 +24,10 @@ public class GameIntroEvent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKey(KeyCode.Space))
+        {
+            SceneManager.LoadScene("NivelUnoPlania");
+
+        }
     }
 }
