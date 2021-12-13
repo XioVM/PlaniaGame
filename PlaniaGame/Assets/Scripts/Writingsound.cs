@@ -14,6 +14,19 @@ public class Writingsound : MonoBehaviour
         StartCoroutine(Reloj());
     }
 
+    private void Update()
+    {
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            StopAllCoroutines();
+            texto.text = frase;
+            SFXWriting.Stop();
+            Button_Next.SetActive(true);
+
+        }
+    }
+
     string frase = "Hola Katia, soy el comandante PepeGrillo, acaba de surgir una misión de extrema importancia en las Amazonas. Te asigné a ti ya que eres una agente bastante aventurera y valiente, sé que te irá bien. " +
         "Vas a llegar con tu equipo y te bajarás en un punto específico, tu misión, por ahora es recorrer las zonas para ver si hay civilizaciones peligrosas alrededor. " +
         "Al final de tu recorrido, debes buscar a tu equipo para poder volver a casa. " +
