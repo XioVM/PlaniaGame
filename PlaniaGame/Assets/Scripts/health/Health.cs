@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class Health : MonoBehaviour
     public float currentHealth { get; private set; }
     private Animator anim;
     private bool dead;
+    public GameObject Reintento;
 
     [Header("iFrames")] //no vulnerable duracion
     [SerializeField] private float iFramesDuration;
@@ -37,6 +39,8 @@ public class Health : MonoBehaviour
                 anim.SetTrigger("die");
                 GetComponent<PlayerMove>().enabled = false;
                 dead = true;
+                Reintento.SetActive(true);
+
             }
            
         }
