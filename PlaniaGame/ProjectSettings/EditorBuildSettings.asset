@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/NivelUnoPlania.unity
     guid: b53af6e970c8169408ecae30cff68f07
+  - enabled: 1
+    path: Assets/Levels/PantallaFinal.unity
+    guid: 8a36a542e0638ab4a8c10f8555a98619
   m_configObjects: {}
