@@ -8633,10 +8633,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 296913809fc9deb4bb6666c106fe3ec8, type: 3}
-    m_FontSize: 47
+    m_FontSize: 48
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 4
     m_MaxSize: 149
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -11062,7 +11062,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: cae892920a1f67c4b844d30fa634a6ca, type: 3}
-    m_FontSize: 115
+    m_FontSize: 112
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -11073,7 +11073,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xA1Has   Perdido!"
+  m_Text: "\xA1Has   perdido!"
 --- !u!222 &1198725233
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12897,10 +12897,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: cae892920a1f67c4b844d30fa634a6ca, type: 3}
-    m_FontSize: 14
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0

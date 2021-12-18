@@ -249,10 +249,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: cae892920a1f67c4b844d30fa634a6ca, type: 3}
-    m_FontSize: 30
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 66
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -261,8 +261,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
   m_Text: "Gracias   por acompa\xF1arnos   en \nesta   gran   aventura. \n\nProximamente  
-    podr\xE1s   disfrutar   de   su\n versi\xF3n   completa. \n\n\xA1Que siga la
-    Aventura!"
+    podr\xE1s   disfrutar   de   su\n versi\xF3n   completa. \n\n\xA1Que  siga  la 
+    aventura!"
 --- !u!222 &358781111
 CanvasRenderer:
   m_ObjectHideFlags: 0
